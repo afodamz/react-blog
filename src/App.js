@@ -8,12 +8,12 @@ import Register from './components/register/Register';
 import Default from './components/Default';
 import Main from './components/pages/Main';
 import { Provider } from 'react-redux';
-import loginReducer from './components/reducers/loginReducer';
+import registerReducer from './components/reducers/registerReducer';
 import { createStore } from 'redux';
 
 
 export default class App extends Component {
-  store = createStore(loginReducer);
+  store = createStore(registerReducer);
   render() {
     return (
       <Provider store={this.store}>
