@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import Background from '../../images/bg.jpg';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 
 
 const Register=(props)=> {
