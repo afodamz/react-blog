@@ -12,18 +12,16 @@ const registerreducer=(state, action)=>{
             ]
         }
     }
-
-    switch(action.type){
-        case 'REGISTER':{
+    switch (action.type) {
+        case 'REGISTER':
             console.log('registration');
-            
-        }
-        case 'LOGIN':{
-            console.log('logging in')
-        }
-        default:{
-            return state
-        }
+            break;
+        case 'LOGIN':
+            console.log('logging in');
+            break;
+    
+        default:
+            break;
     }
 }
 
